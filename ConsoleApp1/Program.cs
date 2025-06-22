@@ -8,6 +8,6 @@ partial class Program
 }
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello " + Add(51, 19));
+        Console.WriteLine("Hello ffff" + Add(51, 19));
     }
 }
