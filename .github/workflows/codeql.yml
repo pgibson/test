@@ -36,6 +36,11 @@ jobs:
       with:
         fetch-depth: 2
 
+    - name: Install .NET 9
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 9.0.x
+
     - run: git checkout HEAD^2
       if: ${{ github.event_name == 'pull_request' }}
 
